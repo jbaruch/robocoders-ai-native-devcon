@@ -222,9 +222,9 @@ Copyright (c) 2025 Baruch Sadogursky
 
 ## 🔗 Additional Resources
 
-- **Devoxx Belgium**: Where this methodology was demonstrated
+- **[Ai-Native DevCon NYC 2025](https://ainativedev.io/devcon)**: Where this methodology was demonstrated
 - **Sample Project**: See `docs/requirements.md` for the complete RGBW Control App specification
-- **AI Tools Used**: Windsurf, Junie, Kiro, Claude Code, OpenAI Codex
+- **AI Tools Used**: [Kiro](https://kiro.dev/), [GitHub Spec-Kit](https://github.com/github/spec-kit)
 
 ---
 
