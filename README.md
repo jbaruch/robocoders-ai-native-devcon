@@ -1,6 +1,6 @@
-# Robocoders Devoxx Belgium - AI Coding Methodologies
+# Robocoders AI-Native DevCon - Spec-Driven AI Coding Methodologies
 
-A demonstration repository showcasing different AI-assisted development methodologies for building software with AI coding agents. This project was created for a live 3-hour conference demo at Devoxx Belgium, demonstrating how different agentic AI IDEs and tools (Windsurf, Junie, Kiro, Claude Code, OpenAI Codex) can work with structured methodologies.
+A demonstration repository showcasing a comparison betweenn two Spec-Drive AI-assisted development methodologies for building software with AI coding agents. This project was created for a live conference demo at AI-Native DevCon conference 2025 in NYC, demonstrating how Kiro and GitHub's Spec-Kit can work with structured methodologies.
 
 > **🎯 This is a Template Repository**  
 > Use this as a starter for your own AI-assisted coding projects! Click the **"Use this template"** button at the top of the GitHub page to create your own repository. Then, select a methodology (PDD or IIC) and let your AI coding tool build your project using the provided prompts and guidelines.
@@ -47,55 +47,6 @@ The sample project is a **Vibecoding Demo** - a web application that:
 - **Design Philosophy**: Intentional simplicity for live demo purposes
 
 See [`docs/requirements.md`](docs/requirements.md) for complete specifications.
-
-## 📚 Methodologies
-
-### Prompt-Driven Development (PDD)
-
-**Philosophy**: Structured requirements-to-tasks workflow with explicit artifact gates and mandatory traceability.
-
-**Process Flow**:
-```
-Prompt → Requirements → Implementation Plan → Tasks → Guidelines
-```
-
-**Key Features**:
-- Sequential numbering of all requirements
-- Dual traceability links (plan → requirements, tasks → plan + requirements)
-- Development phases: Setup → Core → Advanced → Testing → QA → Deployment
-- Primary artifact: `docs/tasks.md` (the authoritative task list)
-
-**When to Use**:
-- Projects with clear requirements upfront
-- Teams that value comprehensive planning
-- Scenarios requiring full audit trails
-- Incremental delivery with defined milestones
-
-**Documentation**: See [`docs/prompt-driven-development.md`](docs/prompt-driven-development.md)
-
-### Intent Integrity Chain (IIC)
-
-**Philosophy**: Test-first software delivery with gated phases and mandatory stop after test generation for human review.
-
-**Process Flow**:
-```
-Init → Analysis → Specification → Test Construction (STOP) → Implementation → Hardening
-```
-
-**Key Features**:
-- **Hard stop after test generation** - humans approve tests before code
-- Locked tests cannot be modified during implementation
-- Phase-based tagging protocol
-- Behavioral specifications (Gherkin or equivalent)
-- NFR validation in hardening phase
-
-**When to Use**:
-- Test-driven development workflows
-- Quality-critical applications
-- Teams that want to validate test coverage before implementation
-- Scenarios requiring explicit phase gates
-
-**Documentation**: See [`docs/intent-integrity-chain.md`](docs/intent-integrity-chain.md)
 
 ## 📁 Repository Structure
 
