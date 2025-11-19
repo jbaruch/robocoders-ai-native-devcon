@@ -19,7 +19,7 @@
 
 ### Frontend
 - **Core**: Vanilla HTML5 + Modern JavaScript (ES2024)
-- **Color Detection**: Color Thief 2.4.0
+- **Color Detection**: simple direct sample of canvas pixels (no libraries involved)
 - **Styling**: Modern CSS with CSS Grid/Flexbox
 
 
